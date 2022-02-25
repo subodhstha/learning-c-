@@ -14,6 +14,6 @@ int main()
         cin>>m;
         s = s + m;
     }
-    p = (float)s / 5;
+    p = (float)s / 7;
     cout<<"The percentage obtain by the student is "<<p;
 }

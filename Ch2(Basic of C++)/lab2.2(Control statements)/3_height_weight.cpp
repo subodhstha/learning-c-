@@ -7,7 +7,7 @@ int main()
     int n, h, w, c = 0;
     cout<<"Enter the total number of boys\n";
     cin>>n;
-    cout<<"Enter the weigt and height(cm) of the boys\n";
+    cout<<"Enter the weight and height(cm) of the boys\n";
     for (int i = 0; i < n; i++)
     {
         cin>>w;
@@ -18,6 +18,6 @@ int main()
             c++;
         }
     }
-    cout<<"The number of boys whose weght is less than 50kg and height is greater than 170cm are "<<c;
+    cout<<"The number of boys whose weight is less than 50kg and height is greater than 170cm are "<<c;
     return 0;
 }

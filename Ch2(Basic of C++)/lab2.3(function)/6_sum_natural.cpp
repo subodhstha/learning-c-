@@ -16,5 +16,5 @@ int main()
     int a;
     cout<<"Enter the value of n ";
     cin>>a;
-    cout<<sumNatural(a);
+    cout<<"The sum of natural number is "<<sumNatural(a);
 }

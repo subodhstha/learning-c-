@@ -10,8 +10,6 @@ int main()
     cout<<"Enter the radius of circle 1 "<<areaOfCircle()<<"\n";
     
     cout<<"Enter the radius of circle 2 "<<areaOfCircle();
-    // areaOfCircle();
-    // cout<<"The area of circle 1 is "<<areaOfCircle();;
 }
 float areaOfCircle()
 {
@@ -19,6 +17,6 @@ float areaOfCircle()
     float area;
     cin>>r;
     area = PI*r*r;
-    cout<<"The are of circle is ";
+    cout<<"The area of circle is ";
     return area;
 }

@@ -24,7 +24,7 @@ int main(){
     int a;
     cout<<"Enter the number ";
     cin>>a;
-    // prime(a);
     cout<<prime(a);
+    cout<<endl;
     cout<<"1 = prime number      0 = not prime number";
 }

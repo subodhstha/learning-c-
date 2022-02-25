@@ -17,5 +17,5 @@ int main()
         }
         sum = sum + n; 
     }
-    cout<<"The of the +ve number are "<<sum;
+    cout<<"The sum of the +ve number are "<<sum;
 }
