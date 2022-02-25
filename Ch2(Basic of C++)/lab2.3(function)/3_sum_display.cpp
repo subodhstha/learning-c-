@@ -4,27 +4,27 @@ processData( ) to sum these numbers and displayData()  to display the sum
 */
 #include<iostream>
 using namespace std;
+int displayData(int c);
+int processData(int a, int b);
 int readData(int a, int b)
 {
     cin>>a>>b;
-    return a, b;
+    processData(a,b);
 }
 int processData(int a, int b)
 {
     int c;
     c = a+b;
-    return (c);
+    displayData(c);
 }
-void displayData()
+int displayData(int c)
 {
-    cout<<"The sum of the number is ";
+    cout<<"The sum of the number is "<<c;
 }
 int main()
 {
     int a,b;
     cout<<"Enter any number ";
     readData(a,b);
-    displayData();
-    processData(a,b);
     return 0;
 }
