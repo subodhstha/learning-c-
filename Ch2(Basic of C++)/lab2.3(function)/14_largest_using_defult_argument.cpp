@@ -30,5 +30,5 @@ int main()
 {
     int a, b, c;
     largest();
-    cout<<" is largest from defult";
+    cout<<" with defult argument";
 }

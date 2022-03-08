@@ -5,7 +5,7 @@ int aaa(int a, float b, char c[10])
 {
     cout<<"integer= "<<a<<" float = "<<b<<" & character = "<<c;
 }
-int aaa(int a, int b)
+int aaa(int a, float b)
 {
     cout<<"integer= "<<a<<" float = "<<b;
 }

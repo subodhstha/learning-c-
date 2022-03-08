@@ -43,8 +43,8 @@ int min(int a, int b)
 int main()
 {
     int x= 50, y=10,z=3;
-    min(x,y);
+    min(x,y,z);
     cout<<endl;
-    min(x,z);
+    min(x,y);
     return 0;
 }

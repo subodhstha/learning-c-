@@ -24,7 +24,7 @@ int displayData(int c)
 int main()
 {
     int a,b;
-    cout<<"Enter any number ";
+    cout<<"Enter any two number ";
     readData(a,b);
     return 0;
 }

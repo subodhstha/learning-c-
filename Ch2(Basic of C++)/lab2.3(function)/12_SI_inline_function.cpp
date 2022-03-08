@@ -3,7 +3,7 @@
 using namespace std;
 inline float si(int p, int t, int r)
 {
-    int si;
+    float si;
     si = (float)(p*t*r)/100;
     return si;
 }
