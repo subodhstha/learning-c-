@@ -9,7 +9,7 @@ int main()
     s = a + b;
     d = a - b;
     p = a * b;
-    cout<<"The sum, differrence & product of "<<a<<" & "<<b<<" are\n";
+    cout<<"The sum, difference & product of "<<a<<" & "<<b<<" are\n";
     cout<<"sum = "<<s<<"\n""difference = "<<d<<"\n""product = "<<p;
     return 0;
 }

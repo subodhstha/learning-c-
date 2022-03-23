@@ -1,4 +1,4 @@
-/*Write a function sumOfDgits() which receives number n as its arguments and returns sum of digits of n
+/*Write a function sumOfDigits() which receives number n as its arguments and returns sum of digits of n
  (e.g., n= 123 then sum of digits= 1+2+3=6).*/
 #include<iostream>
 using namespace std;
