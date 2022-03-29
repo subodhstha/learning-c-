@@ -6,9 +6,21 @@ class item
 {
     int number, cost;
     public:
-    void getdata(){
-        cout<<"Enter the number and cost";
+    void putdata(){
+        cout<<"Enter the number and cost"<<endl;
         cin>>number>>cost;
     }
-    
+    void getdata()
+    {
+        cout<<"Item number = "<<number<<endl;
+        cout<<"Cost = "<<cost<<endl;
+    }
 };
+int main()
+{
+    item a1,a2;
+    a1.putdata();
+    a2.putdata();
+    a1.getdata();
+    a2.getdata();
+}
