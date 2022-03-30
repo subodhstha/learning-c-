@@ -28,7 +28,7 @@ class item
         cout<<endl;
     } 
 };
-int item::count;+
+int item::count;
 int main()
     {
         item a1, a2, a3;
