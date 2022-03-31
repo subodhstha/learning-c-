@@ -17,7 +17,7 @@ int main()
     }
     else
     {
-        cout<<"Allocation sucesfull!"<<endl;
+        cout<<"Allocation successfully!"<<endl;
         cout<<"Enter the age of the employee"<<endl;
         for (int i = 0; i < n; i++)
         {
@@ -30,7 +30,7 @@ int main()
         cout<<"The number of employees of age above 60 years are "<<num<<endl;
     }
     delete[]p;
-    cout<<"De-allocated sucessfully!";
+    cout<<"De-allocated successfully!";
     return 0;
 
 }

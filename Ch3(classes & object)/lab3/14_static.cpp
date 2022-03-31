@@ -21,7 +21,7 @@ class item
     }
     void display()
     {
-        
+        co();
         cout<<"Name:"<<name<<endl;
         cout<<"Code:"<<code<<endl;
         cout<<"Price:"<<price<<endl;
@@ -35,10 +35,7 @@ int main()
         a1.getdata();
         a2.getdata();
         a3.getdata();
-        a1.co();
         a1.display();
-        a2.co();
         a2.display();
-        a3.co();
         a3.display();
     }

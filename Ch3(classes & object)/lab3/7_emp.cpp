@@ -16,9 +16,9 @@ class Employee
     }
     void putdata()
     {
-        cout<<"Name"<<name<<endl;
+        cout<<"Name:"<<name<<endl;
         cout<<"Age:"<<age<<endl;
-        cout<<"salary"<<salary<<endl;
+        cout<<"salary:"<<salary<<endl;
         cout<<endl;
     }
 

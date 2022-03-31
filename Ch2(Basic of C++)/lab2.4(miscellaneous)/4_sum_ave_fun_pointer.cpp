@@ -1,7 +1,7 @@
 // Write a program to find the sum and average of all the elements of an array by passing through function using pointer.
 #include<iostream>
 using namespace std;
-int sum(int *p)
+void sum(int *p)
 {
     int n,sum=0,a;
     p = &a;

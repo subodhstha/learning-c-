@@ -12,6 +12,7 @@ class student{
     {
         cout<<"Enter the Roll no., Name & Marks of student "<<endl;
         cin>>r>>n>>m;
+        cout<<endl;
     }
     void showdata()
     {
@@ -32,7 +33,8 @@ int main()
     s2.getdata();
     s3.getdata();
     s4.getdata();
-    s5.getdata();        
+    s5.getdata();
+    cout<<"The student with above 70 marks"<<endl;
     s1.showdata();
     s2.showdata();
     s3.showdata();

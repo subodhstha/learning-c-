@@ -9,10 +9,10 @@ int main()
 
     for (int i = 0; i < 3 ; i++)
     {
-            for(int j=0 ; j<4 ; j++)
-            {
-                sum += (p[i][j]);
-            }
+        for(int j=0 ; j<4 ; j++)
+        {
+            sum += (p[i][j]);
+        }
     }
-    cout<<sum;
+    cout<<"The sum of element of 3X4 array is "<<sum;
 }

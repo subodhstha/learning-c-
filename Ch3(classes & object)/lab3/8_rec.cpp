@@ -24,7 +24,7 @@ class rectangle
     }
     void display()
     {
-        cout<<"The area of the rectange is ";
+        cout<<"The area of the rectangel is ";
         area();
         cout<<"The perimeter of the rectangle is ";
         perimeter();

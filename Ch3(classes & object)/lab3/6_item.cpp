@@ -21,12 +21,12 @@ class item
     } 
 };
 int main()
-    {
-        item a1, a2, a3;
-        a1.getdata();
-        a2.getdata();
-        a3.getdata();
-        a1.display();
-        a2.display();
-        a3.display();
-    }
+{
+    item a1, a2, a3;
+    a1.getdata();
+    a2.getdata();
+    a3.getdata();
+    a1.display();
+    a2.display();
+    a3.display();
+}

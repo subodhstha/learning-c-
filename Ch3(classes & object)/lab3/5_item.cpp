@@ -6,7 +6,8 @@ class item
 {
     int number, cost;
     public:
-    void putdata(){
+    void putdata()
+    {
         cout<<"Enter the number and cost"<<endl;
         cin>>number>>cost;
     }

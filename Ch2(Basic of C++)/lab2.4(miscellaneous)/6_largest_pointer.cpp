@@ -1,3 +1,4 @@
+// WAP that contains the function larger that receives the pointer of two variables and decides the largest of two.
 #include<iostream>
 using namespace std;
 void largest(int *a, int *b)

@@ -10,12 +10,16 @@ class integer{
     public:
     integer()
     {
-    cout<<"Enter two value of to add"<<endl;
+    cout<<"Enter two value to add"<<endl;
     cin>>m>>n;
+    }
+    ~integer()
+    {
+        cout<<"Deallocation"<<endl;
     }
     void add()
     {
-    cout<<m+n;
+    cout<<"sum="<<m+n<<endl;
     }
 };
 int main()

@@ -6,7 +6,7 @@ class complex {
     public:
     void getData()
     {
-        cout<<"Enter the real and imaginary ";
+        cout<<"Enter the real and imaginary number "<<endl;
         cin>>r;
         cin>>im;
     }

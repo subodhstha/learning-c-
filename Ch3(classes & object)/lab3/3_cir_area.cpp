@@ -8,7 +8,8 @@ class circle
 private:
     int r;
 public:
-    void getdata(){
+    void getdata()
+    {
         cout<<"Enter the radius of the circle"<<endl;
         cin>>r;
     }
@@ -24,6 +25,7 @@ public:
 int main()
 {
     circle c1, c2, c3;
+    cout<<"The area of three circles "<<endl<<endl;
     c1.getdata();
     c1.display();
     cout<<c1.calArea()<<endl;
@@ -32,4 +34,5 @@ int main()
     cout<<c2.calArea()<<endl;
     c3.getdata();
     c3.display();
-    cout<<c3.calArea()<<endl;}
+    cout<<c3.calArea()<<endl;
+    }
