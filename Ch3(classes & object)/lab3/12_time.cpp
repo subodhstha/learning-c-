@@ -9,7 +9,7 @@ class times
     public:
     void getData()
     {
-        cout<<"Enter the time in hour and secind"<<endl;
+        cout<<"Enter the time in hour and minutes"<<endl;
         cin>>hr>>min;
     }
     void add(times t1, times t2)
