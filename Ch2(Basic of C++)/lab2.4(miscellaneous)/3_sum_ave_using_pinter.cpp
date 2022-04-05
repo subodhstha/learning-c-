@@ -13,7 +13,7 @@ int main(){
     {
         cin>>*p;
         sum = sum + *p;
-        p++;
+        i++;
     }
     ave = (float)sum/n;
     cout<<"The sum of the element in array is "<<sum<<endl;
