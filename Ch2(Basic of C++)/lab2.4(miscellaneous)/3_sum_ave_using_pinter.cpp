@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int n,a[n],sum=0,*p;
+    int n,a[100],sum=0,*p;
     float ave;
     p = a;
     cout<<"Enter the size of array"<<endl;
@@ -13,7 +13,6 @@ int main(){
     {
         cin>>*p;
         sum = sum + *p;
-        i++;
     }
     ave = (float)sum/n;
     cout<<"The sum of the element in array is "<<sum<<endl;
