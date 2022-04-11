@@ -1,4 +1,4 @@
-// Write a C++ program to illustrate the overloading of relational operator >.
+// Write a program to compare the two distances taken as input in the program and decide which one is greater than other.
 #include<iostream>
 using namespace std;
 class distances

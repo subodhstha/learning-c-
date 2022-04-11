@@ -3,12 +3,32 @@
 using namespace std;
 class sub
 {
-    int data;
+    int real, imaginary;
     public:
-    sub()
+    void get_data()
     {
-        int d;
-        cin>>d;
-        data=d;
+        cout<<"Enter the real number & imaginary number"<<endl;
+        cin>>real>>imaginary;
+    }
+    sub operator -(sub d)
+    {
+        sub d1;
+        d1.real = real - d.real;
+        d1.imaginary = imaginary - d.imaginary;
+        return d1;
+    }
+    void display()
+    {
+        cout<<"The difference of two complex number is ";
+        cout<<real<<" + "<<imaginary<<" i";
     }
 };
+
+int main ()
+{
+    sub d1, d2, d3;
+    d1.get_data();
+    d2.get_data();
+    d3 = d1 - d2;
+    d3.display();
+}
