@@ -43,8 +43,6 @@ class rupees
         {
             tc = d.get_cent() + d.get_dol()*100;
         }
-        
-        
         tp = tc * 120;
         rs = tp/100;
         paisa = tp - rs * 100;
