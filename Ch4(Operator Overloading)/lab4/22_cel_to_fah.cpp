@@ -12,7 +12,7 @@ class temperature
     }
     void convert()
     {
-        fahrenheit = celsius * 33.8;
+        fahrenheit = (celsius*(9/5)) + 32;
     }
     void display()
     {
@@ -23,4 +23,7 @@ class temperature
 int main()
 {
     temperature t1;
+    t1.get_data();
+    t1.convert();
+    t1.display();
 }
