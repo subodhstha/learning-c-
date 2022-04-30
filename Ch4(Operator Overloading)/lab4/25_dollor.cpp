@@ -34,7 +34,17 @@ class rupees
     rupees (dollar d)
     {
         float tc, tp ,tr;
-        tc = d.get_cent() + d.get_dol()*100;
+        
+        if (d.get_cent()<9)
+        {
+            tc = d.get_cent()*10 + d.get_dol()*100;
+        }
+        else
+        {
+            tc = d.get_cent() + d.get_dol()*100;
+        }
+        
+        
         tp = tc * 120;
         rs = tp/100;
         paisa = tp - rs * 100;
