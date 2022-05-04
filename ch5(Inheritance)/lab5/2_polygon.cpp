@@ -26,7 +26,6 @@ class rectangle:public polygon
     }
 };
 
-
 class triangle: public rectangle
 {
     public:
