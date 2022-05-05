@@ -21,7 +21,7 @@ class counter
 int main()
 {
     counter c1, c2;
-    cout<<"Value before increment"<<endl;
+    cout<<"Value before decrement"<<endl;
     cout<<"c1 count = ";
     c1.get_count();
     cout<<"c2 count =";
@@ -29,7 +29,7 @@ int main()
     c1--;
     c2--;
     c2--;
-    cout<<"Value after increment "<<endl;
+    cout<<"Value after decrement "<<endl;
     cout<<"c1 count = ";
     c1.get_count();
     cout<<"c2 count = ";

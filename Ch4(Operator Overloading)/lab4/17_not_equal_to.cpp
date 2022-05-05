@@ -35,6 +35,6 @@ int main()
     }
     else
     {
-        cout<<"First distance equal to second distance"<<endl;
+        cout<<"First distance is equal to second distance"<<endl;
     }
 }

@@ -30,5 +30,4 @@ int main()
     a1.get_data();
     a1.convert();
     a1.display();
-
 }

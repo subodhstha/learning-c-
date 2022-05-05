@@ -13,7 +13,7 @@ class distances
     }
     int operator <=(distances d)
     {
-        if (a<d.a)
+        if (a<=d.a)
         {
             return 1;
         }

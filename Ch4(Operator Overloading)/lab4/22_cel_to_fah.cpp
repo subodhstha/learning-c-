@@ -1,4 +1,5 @@
-// Write a program to convert object from class that represents temperature in Celsius scale to object of a class that represents it in Fahrenheit scale.
+// Write a program to convert object from class that represents temperature in Celsius scale 
+// to object of a class that represents it in Fahrenheit scale.
 #include<iostream>
 using namespace std;
 class temperature
@@ -12,7 +13,7 @@ class temperature
     }
     void convert()
     {
-        fahrenheit = (celsius*(9/5)) + 32;
+        fahrenheit = (celsius*1.8) + 32;
     }
     void display()
     {

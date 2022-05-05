@@ -3,7 +3,7 @@
 
 #include<iostream>
 using namespace std;
-class x
+class X
 {
     int a;
     public:
@@ -18,11 +18,11 @@ class x
     }
 };
 
-class y
+class Y
 {
     int b;
     public:
-    y(x d)
+    Y(X d)
     {
         b=d.get_value();
     }
@@ -34,8 +34,8 @@ class y
 
 int main()
 {
-    x a;
+    X a;
     a.get_data();
-    y b=a;
+    Y b=a;
     b.display(); 
 }
