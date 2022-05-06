@@ -1,6 +1,6 @@
 // Create a person class with attributes id and name and member function to set the member
-//  variables and to display those variables. Then create class student with member variables
-//   grade and addresses which inherits person class publically.
+// variables and to display those variables. Then create class student with member variables
+// grade and addresses which inherits person class publically.
 
 #include<iostream>
 using namespace std;
