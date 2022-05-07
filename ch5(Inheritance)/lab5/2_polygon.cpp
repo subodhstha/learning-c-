@@ -32,7 +32,7 @@ class triangle: public rectangle
     void areas()
     {
         area();
-        cout<<"The area of triangle is "<<(l*b)/2<<endl;
+        cout<<"The area of triangle is "<<(float)(l*b)/2<<endl;
     }
 };
 
