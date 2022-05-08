@@ -23,6 +23,6 @@ int main()
     }
     catch(int e)
     {
-        cerr<<"Divide by is not possible b = "<<e<<endl;
+        cerr<<"Divide by zero is not possible b = "<<e<<endl;
     }
 }

@@ -28,7 +28,7 @@ void num(int a)
 int main()
 {
     int a;
-    cout<<"Entter -1, 0 or 1 "<<endl;
+    cout<<"Enter -1, 0 or 1 "<<endl;
     cin>>a;
     try
     {
