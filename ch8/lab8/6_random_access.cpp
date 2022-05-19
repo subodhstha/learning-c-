@@ -37,9 +37,9 @@ void read_file()
     cout<<endl;
     cout<<"----Data from file----";
     ifstream infile("class_data.dat", ios::binary);
-    while (!infile.eof())
+    while(!infile.eof())
     {
-        if(infile.read((char*)&s,sizeof(s)) > 0)
+        if(infile.read((char*)&s, sizeof(s)) > 0)
         s.show_data();
     }
 }

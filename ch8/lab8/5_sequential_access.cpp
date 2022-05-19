@@ -15,7 +15,7 @@ int main()
     cin>>roll;
 
     outfile<<name<<endl;
-    outfile<<roll;
+    outfile<<roll<<endl;
 
     outfile.close();
 
