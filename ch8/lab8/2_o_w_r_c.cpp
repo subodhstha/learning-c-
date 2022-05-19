@@ -1,5 +1,5 @@
 // Write a C++ program to illustrate the opening, writing and reading  and closing of  file.
-#include<Iostream>
+#include<iostream>
 #include<fstream>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
     cout<<endl;
     cout<<"----Data from file----"<<endl;
     cout<<"Name: "<<name<<endl;
-    cout<<"Email; "<<email<<endl;
+    cout<<"Email: "<<email<<endl;
 
     infile.close();
     return 0;
