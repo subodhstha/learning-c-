@@ -35,12 +35,12 @@ void read_file()
     student s;
     cout<<endl;
     cout<<endl;
-    cout<<"----Data from file----";
+    cout<<"----Data from file----"<<endl;
     ifstream infile("class_data.dat", ios::binary);
     while(!infile.eof())
     {
-        if(infile.read((char*)&s, sizeof(s)) > 0)
-        s.show_data();
+        if(infile.read((char*)&s, sizeof(s)> 0))
+            s.show_data();
     }
 }
 
