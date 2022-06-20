@@ -26,11 +26,6 @@ class rupees
 {
     int rs, paisa;
     public:
-    rupees()
-    {
-        cout<<"Enter the Rs and Paisa ";
-        cin>>rs>>paisa;
-    }
     rupees (dollar d)
     {
         float tc, tp ,tr;
